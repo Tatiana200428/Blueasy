@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.colores {
+    color: #31c0fe,
+        #516067,
+        #4BCAFF
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #516067;
+    padding: 40px;
+}
+
+
+.logo {
+    font-size: 17px;
+    color: white;
+
+}
+
+.blue {
+    color: #4BCAFF;
+    font-weight: bold;
+}
+
+a {
+    padding: 10px;
+    margin: 0px 6px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.active:hover {
+    border: 2px solid #4BCAFF;
+    border-radius: 3px;
+
+}
+
+.one {
+    background-image: url(/images/Fondo.png);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    flex-direction: column;
+
+}
+
+.yil {
+    background: #3a5d6d3d;
+    text-align: center;
+}
+
+.two {
+    background: #4BCAFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 70px;
+}
+
+.coffee {
+    color: white;
+    font-size: 15px;
+}
+
+.coffee h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.coffee p {
+    width: 90%;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 15px;
+}
+
+.galeria img {
+    padding: 25px;
+
+}
+
+.four {
+    background: #516067;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.four p {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.four button {
+    padding: 12px;
+    width: 20%;
+    border: 2px solid black;
+    background: #516067;
+    color: black;
+    font-weight: bold;
+}
+
+.five {
+    background: #4BCAFF;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bird img {
+
+    padding-left: 800px;
+}
+
+.five p {
+    padding-bottom: 15px;
+    color: white;
+
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.negrilla {
+    font-weight: bold;
+}
+
+.seven {
+    font-size: 15px;
+}
+
+
+
+
+.seven p {
+    padding-bottom: 20px;
+}
+
+.six {
+    background-image: url(/images/bg_whoIs.png);
+    height: 50vh;
+}
+
+.john {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 50px;
+}
+
+.parrafos {
+    width: 60%;
+}
+
+.botones {
+    padding-top: 60px;
+    padding-left: 30px;
+    width: 60%;
+}
+
+.seven {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.todora {
+    color: #4BCAFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.eigth {
+    background-image: url(/images/bg_contact.png);
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.pos {
+    padding-top: 30px;
+}
+
+
+
+.pos {
+    font-size: 20px;
+
+}
+
+.campos label {
+    padding-top: 15px;
+}
+
+.di {
+
+    background: #31c0fe;
+    border: none;
+    width: 60%;
+    padding: 15px;
+    color: white;
+}
+
+.campos input {
+    background: none;
+    width: 70%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.big input {
+    width: 300%;
+    height: 150px;
+}
+
+.max {
+    padding-left: 80px;
+    padding-top: 90px;
+
+}
+
+
+.pd {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+footer {
+    background: #516067;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+footer a {
+    color: gray;
+}
+
+.parrafos p {
+    padding-bottom: 20px;
+}
+
+.botones img {
+    padding-right: 10px;
+}
+
+.go {
+    font-size: 30px;
+}
+
+.botones p {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:460px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+
+    .one {
+        height: 60vh;
+        font-size: 20px;
+        flex-direction: column;
+
+    }
+
+    .two {
+        background: #4BCAFF;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .coffee img {
+        padding-top: 30px;
+    }
+
+    .filtro {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    
+
+    .titulo {
+        padding-left: 25px;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+
+    }
+
+    .galeria img {
+        padding: 10px;
+        width: 88%;
+
+    }
+
+    .four {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .video img {
+        width: 80%;
+    }
+
+    .text {
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .five {
+        padding: 20px;
+    }
+
+    .bird img {
+
+        padding-left: 30px;
+    }
+
+    .five p {
+        padding-bottom: 15px;
+        color: white;
+
+    }
+
+    .six {
+        background-image: url(/images/bg_whoIs.png);
+        height: 200vh;
+    }
+
+    .john {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .parrafos {
+        width: 100%;
+        font-size: 15px;
+        text-align: center
+    }
+
+    .botones {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 30px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .eigth {
+        height: 270vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .max {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 13px;
+
+    }
+
+    .campos label {
+        padding-top: 10px;
+    }
+
+    .campos input {
+        width: 70%;
+        border: 1px solid white;
+        padding: 8px;
+        margin-bottom: 10px;
+
+    }
+
+    .big input {
+        width: 170%;
+        height: 100px;
+    }
+
+    .four p {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .four button{
+        margin-bottom: 15px;
+    }
+    .coffee p {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
